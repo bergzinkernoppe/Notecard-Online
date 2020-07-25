@@ -1,0 +1,22 @@
+:root{
+    --mainDark: #3C4043;
+    --white: white;
+    --baseGradient: linear-gradient(140deg, rgba(180,58,165,1) 13%, rgba(253,119,29,1) 50%, rgba(246,190,0,1) 85%);
+  }
+  /* ------------------------ General --------------------------------- */
+  *{
+    font-family: Segoe UI Light;
+    color: var(--mainDark);
+    box-sizing: border-box;
+  }
+  body{
+    margin: 0;
+    background-color: var(--white);
+    transition: background-color 0.5s;
+  }
+  .centerText{
+    text-align: center;
+    margin: 0;
+  }
+
+  
