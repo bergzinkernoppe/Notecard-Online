@@ -18,6 +18,8 @@
   "homepage": "https://github.com/bergzinkernoppe/Notecard-Online#readme",
   "dependencies": {
     "animejs": "^3.2.0",
-    "jquery": "^3.5.1"
+    "gsap": "^3.4.2",
+    "jquery": "^3.5.1",
+    "wavify": "^1.0.0"
   }
 }
