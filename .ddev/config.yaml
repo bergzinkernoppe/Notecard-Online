@@ -1,6 +1,6 @@
-name: notecard-online
+name: Notecard-Online
 type: php
-docroot: notecard-online
+docroot: ""
 php_version: "7.3"
 webserver_type: apache-fpm
 router_http_port: "80"
