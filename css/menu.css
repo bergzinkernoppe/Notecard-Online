@@ -1,0 +1,135 @@
+  /* ------------------------ Menu --------------------------------- */
+  .menu-button{
+    position: fixed;
+    z-index: 30;
+    top: 10px;
+    left: 10px;
+    height: 35px;
+    width: 35px;
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  
+    border-radius: 50%;
+    border: var(--mainDark) solid 2px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .menu-button:hover{
+    background-color: var(--mainDark);
+  }
+  .menu-button:hover .menu-button-bar{
+    background-color: var(--white);
+  }
+  .menu-button-bar{
+    width: 60%;
+    height: 2px;
+  
+    background-color: var(--mainDark);
+    border-radius: 1px;
+  }
+  .menu-button-bar:first-of-type{
+    margin-top: 6px;
+  }
+  .menu-button-bar:last-of-type{
+    margin-bottom: 6px;
+  }
+  .menu-button-bar-extender{
+    background-color: var(--white) !important;
+  }
+  
+  .menu{
+    position: fixed;
+    z-index: 20;
+    top: 0;
+    
+    height: 100vh;
+    width: 0px;
+    overflow: hidden;
+  
+    transition: 0.3s;
+    background: var(--baseGradient);
+  }
+  .menu-extender{
+    width: 280px;
+  }
+  .menu-element{
+    height: 75px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  
+    color: var(--white);
+    font-family: Segoe UI Light;
+    font-size: 32px;
+    letter-spacing: 3px;
+    border-bottom: solid var(--mainDark) 2px;
+    border-top-width: 0px;
+    transition: 0.5s;
+  
+    cursor: pointer;
+  }
+  .menu-element:first-of-type{
+    margin-top: 75px;
+    border-top: solid var(--mainDark) 2px;
+  }
+  .menu-element:hover{
+    background-color: var(--mainDark);
+  }
+  
+  .menu-link-box{
+    position: absolute;
+    height: 75px;
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+  
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    left: 0;
+  
+    color: var(--white);
+  }
+  .menu-link{
+    height: 35px;
+    width: 35px;
+    margin-left: auto;
+    margin-right: auto;
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  
+    border-radius: 50%;
+    border: var(--mainDark) solid 2px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .menu-link:hover{
+    background-color: var(--mainDark);
+  }
+  
+  #dim-screen{
+    position: fixed;
+    z-index: 10;
+  
+    width: 100vw;
+    height: 100vh;
+  
+    transition: 0.3s;
+    background-color: var(--white);
+    opacity: 0%;
+    display: none;
+  }
+  .dim-screen-extender{
+    opacity: 50% !important;
+    display: block !important;
+  }
