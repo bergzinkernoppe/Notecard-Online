@@ -1,5 +1,5 @@
-  /* ------------------------ Menu --------------------------------- */
-  .menu-button{
+/* ------------------------ Menu-Button --------------------------------- */
+.menu-button{
     position: fixed;
     z-index: 30;
     top: 10px;
@@ -17,30 +17,30 @@
     cursor: pointer;
     transition: 0.5s;
   }
-  .menu-button:hover{
+.menu-button:hover{
     background-color: var(--mainDark);
-  }
-  .menu-button:hover .menu-button-bar{
+}
+.menu-button:hover .menu-button-bar{
     background-color: var(--white);
-  }
-  .menu-button-bar{
+}
+.menu-button-bar{
     width: 60%;
     height: 2px;
   
     background-color: var(--mainDark);
     border-radius: 1px;
-  }
-  .menu-button-bar:first-of-type{
+}
+.menu-button-bar:first-of-type{
     margin-top: 6px;
-  }
-  .menu-button-bar:last-of-type{
+}
+.menu-button-bar:last-of-type{
     margin-bottom: 6px;
-  }
-  .menu-button-bar-extender{
+}
+.menu-button-bar-extender{
     background-color: var(--white) !important;
-  }
-  
-  .menu{
+}
+/* ------------------------ Menu --------------------------------- */
+.menu{
     position: fixed;
     z-index: 20;
     top: 0;
@@ -51,11 +51,11 @@
   
     transition: 0.3s;
     background: var(--baseGradient);
-  }
-  .menu-extender{
+}
+.menu-extender{
     width: 280px;
-  }
-  .menu-element{
+}
+.menu-element{
     height: 75px;
   
     display: flex;
@@ -72,16 +72,16 @@
     transition: 0.5s;
   
     cursor: pointer;
-  }
-  .menu-element:first-of-type{
+}
+.menu-element:first-of-type{
     margin-top: 75px;
     border-top: solid var(--mainDark) 2px;
-  }
-  .menu-element:hover{
+}
+.menu-element:hover{
     background-color: var(--mainDark);
-  }
+}
   
-  .menu-link-box{
+.menu-link-box{
     position: absolute;
     height: 75px;
     width: 100%;
@@ -96,8 +96,8 @@
     left: 0;
   
     color: var(--white);
-  }
-  .menu-link{
+}
+.menu-link{
     height: 35px;
     width: 35px;
     margin-left: auto;
@@ -112,12 +112,12 @@
     border: var(--mainDark) solid 2px;
     cursor: pointer;
     transition: 0.5s;
-  }
-  .menu-link:hover{
+}
+.menu-link:hover{
     background-color: var(--mainDark);
-  }
-  
-  #dim-screen{
+}
+/* ------------------------ screen-shader --------------------------------- */
+#screen-shader{
     position: fixed;
     z-index: 10;
   
@@ -128,8 +128,8 @@
     background-color: var(--white);
     opacity: 0%;
     display: none;
-  }
-  .dim-screen-extender{
+}
+.screen-shader-extender{
     opacity: 50% !important;
     display: block !important;
-  }
+}

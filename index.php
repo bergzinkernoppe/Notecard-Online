@@ -7,8 +7,8 @@
     </head>
     <body>
         <?php include("components/menu.html"); ?>
-        <div class="Title-Wrapper">
-            <div class="Title">
+        <div class="title-wrapper">
+            <div class="title">
                 Notecard-Online
             </div>
         </div>
