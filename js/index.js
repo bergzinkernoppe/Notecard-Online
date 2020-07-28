@@ -1,3 +1,3 @@
 $(function(){
-    include([MENU]);
+    include([MENU,FOOTER]);
 });

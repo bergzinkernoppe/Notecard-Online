@@ -15,6 +15,7 @@
     "globals": {
         "includes" : "writable",
         "include" : "writable",
-        "MENU" : "writable"
+        "MENU" : "writable",
+        "FOOTER" : "writable"
     }
 }

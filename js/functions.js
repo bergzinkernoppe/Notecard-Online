@@ -15,6 +15,14 @@ const MENU = {
         });
     }
 }
+const FOOTER = {
+    name : "FOOTER",
+    htmlPath : "../components/footer.html",
+    cssPath : "./css/footer.css",
+    js(){
+        
+    }
+}
 function include(obj_array){
     $.each(obj_array,function(idx,component){
         $.get(component.htmlPath,function(data){      //load html content
