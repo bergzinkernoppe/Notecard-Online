@@ -1,5 +1,5 @@
 /* ------------------------ Menu-Button --------------------------------- */
-.menu-button{
+#menu-button{
     position: fixed;
     z-index: 30;
     top: 10px;
@@ -15,12 +15,12 @@
     border-radius: 50%;
     border: var(--mainDark) solid 2px;
     cursor: pointer;
-    transition: 0.5s;
-  }
-.menu-button:hover{
+    transition: background-color 0.5s;
+}
+#menu-button:hover{
     background-color: var(--mainDark);
 }
-.menu-button:hover .menu-button-bar{
+#menu-button:hover .menu-button-bar{
     background-color: var(--white);
 }
 .menu-button-bar{
@@ -40,7 +40,7 @@
     background-color: var(--white) !important;
 }
 /* ------------------------ Menu --------------------------------- */
-.menu{
+#menu{
     position: fixed;
     z-index: 20;
     top: 0;
@@ -53,7 +53,7 @@
     background: var(--baseGradient);
 }
 .menu-extender{
-    width: 280px;
+    width: 280px !important;
 }
 .menu-element{
     height: 75px;
@@ -117,19 +117,22 @@
     background-color: var(--mainDark);
 }
 /* ------------------------ screen-shader --------------------------------- */
-#screen-shader{
+.screen-shader{
     position: fixed;
     z-index: 10;
   
-    width: 100vw;
-    height: 100vh;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
   
-    transition: 0.3s;
+    transition-duration: 2s;
+    
     background-color: var(--white);
-    opacity: 0%;
+    opacity: 0;
     display: none;
 }
 .screen-shader-extender{
-    opacity: 50% !important;
+    opacity: 0.5 !important;
     display: block !important;
 }

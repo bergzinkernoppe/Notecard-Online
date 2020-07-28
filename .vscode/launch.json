@@ -17,13 +17,21 @@
             "reAttach": true,
             "name": "Launch Firefox",
             "url": "https://notecard-online.ddev.site/",
-            "webRoot": "${workspaceFolder}"
+            "webRoot": "${workspaceFolder}",
+            "pathMappings": [
+                {
+                    "url": "https://notecard-online.ddev.site",
+                    "path": "${workspaceFolder}"
+                }
+            ]
         },
         {
             "name": "Listen for XDebug",
             "type": "php",
             "request": "launch",
-            "pathMappings": {"/var/www/html": "${workspaceRoot}"},
+            "pathMappings": {
+                "/var/www/html": "${workspaceRoot}"
+            },
             "port": 9000
         },
         {

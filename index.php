@@ -3,10 +3,9 @@
     <head>
         <meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" type="text/css" href="css/menu.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
     </head>
     <body>
-        <?php include("components/menu.html"); ?>
         <div class="title-wrapper">
             <div class="title">
                 Notecard-Online
