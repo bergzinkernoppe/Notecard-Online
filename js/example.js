@@ -2,7 +2,7 @@ $('#wave').wavify({
   height: 15,
   bones: 3,
   amplitude: 30,
-  color: '#e52e71',
+  color: 'rgba(246,190,0,1)',
   speed: .30
 });
 
@@ -10,7 +10,7 @@ $('#wave2').wavify({
   height: 60,
   bones: 3,
   amplitude: 10,
-  color: '#ff8a00',
+  color: 'rgba(180,58,165,1)',
   speed: .20
 });
 

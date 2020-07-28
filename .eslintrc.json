@@ -13,6 +13,9 @@
         "no-unused-vars": ["off",{"vars": "local"}]
     },
     "globals": {
-        "menuButtonClickListener": true
+        "includes" : "writable",
+        "include" : "writable",
+        "MENU" : "writable",
+        "FOOTER" : "writable"
     }
 }

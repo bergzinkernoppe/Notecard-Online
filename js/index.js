@@ -1,3 +1,3 @@
 $(function(){
-    menuButtonClickListener();
+    include([MENU,FOOTER]);
 });

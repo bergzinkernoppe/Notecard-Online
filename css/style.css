@@ -1,18 +1,28 @@
 :root{
     --mainDark: #3C4043;
     --white: white;
-    --baseGradient: linear-gradient(180deg, rgba(180,58,165,1) 13%, rgba(253,119,29,1) 50%, rgba(246,190,0,1) 85%);
+    --baseGradient: linear-gradient(140deg, rgba(180,58,165,1) 13%, rgba(253,119,29,1) 50%, rgba(246,190,0,1) 85%);
+    --textFont: Work Sans;
+    --captionFont: Nunito;
+}
+@font-face{
+    font-family: Nunito;
+    src: url("../fonts/Nunito/Nunito-Regular.ttf");
+}
+@font-face{
+    font-family: Work Sans;
+    src: url("../fonts/WorkSans/WorkSans-VariableFont_wght.ttf");
 }
     /* ------------------------ General --------------------------------- */
 *{
     font-family: Segoe UI Light;
     color: var(--mainDark);
+
     box-sizing: border-box;
+
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
-
-    font-family: Segoe UI Light;
 }
 html,body {
     width: 100%;
