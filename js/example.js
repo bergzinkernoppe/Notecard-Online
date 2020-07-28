@@ -16,18 +16,32 @@ $('#wave2').wavify({
 
 //----------------------< Notecard animation >-------------------
 
+var panels = [$("#panel3"),$("#panel2"),$("panel1")];
+var i = 0;
+var zahl = 8;
+
 var anime = anime.timeline({
   targets: ".panel",
   duration: 1000,
   loop: true,
   easing: "easeInOutExpo",
-  delay: anime.stagger(1300)
+  delay: anime.stagger(1300),
+  endDelay: 750
 });
 
 anime.add({
   update: function(e){
-    if(e.progress > 50){
-      // $(".panel").siblings().css("top","-0px");
+    if(e.progress > zahl && e.progress < 71){
+      //console.log("zahl: " + zahl + ", progress: " + e.progress);
+      zahl += 31;
+      panels[i].css("background-color","blue");
+      console.log(i);
+      //panels[i].siblings().css("top","-=4px");
+      i++;
+    }else if(zahl > 71){
+      i = 0;
+      zahl = 4;
+      $(".panel").css("z-index","0");
     }
   },
   translateX: [{
@@ -39,6 +53,4 @@ anime.add({
     duration: 500,
   }],
   translateY: 12
-}).add({
-  zIndex: 10
-}, "-=1250")
+});
