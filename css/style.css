@@ -1,7 +1,7 @@
 :root{
     --mainDark: #3C4043;
     --white: white;
-    --baseGradient: linear-gradient(140deg, rgba(180,58,165,1) 13%, rgba(253,119,29,1) 50%, rgba(246,190,0,1) 85%);
+    --baseGradient: linear-gradient(140deg, rgba(180,58,165,1) 14%, rgba(246,190,0,1) 79%);
     --textFont: Work Sans;
     --captionFont: Nunito;
 }
