@@ -23,21 +23,38 @@ svg {
 
 /*------------------------------< Notecard Animation >----------------------*/
 .panel-wrapper {
-    height: 150px;
+    height: 200px;
     width: 100%;
+    margin-top: 200px;
     position: relative;
-    background-color: blue;
 }
 .panel {
     position: absolute;
     transition: 0.1s;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     height: 100%;
-    width: 300px;
+    width: 350px;
+
+    font-weight: bold;
+    font-size: 18px;
+
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
 
     z-index: 0;
 
+    border-radius: 2px;
+
     background-color: white;
-        
-    border: 3px solid gray;
+
 }
+
+#panel3 {background-color: #e303fc;}
+#panel2 {background-color: #fc9803;}
+#panel1 {background-color: #fcdb03;}
