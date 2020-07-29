@@ -4,5 +4,5 @@
     width: 100%;
     height: 300px;
     /* base-Gradient, aber auf 180° gedreht */
-    background: linear-gradient(180deg, rgba(180,58,165,1) 13%, rgba(253,119,29,1) 50%, rgba(246,190,0,1) 85%);
+    background: linear-gradient(180deg, rgba(180,58,165,1) 14%, rgba(246,190,0,1) 79%);
 }
