@@ -35,7 +35,7 @@ function include(obj_array){
         });
         setTimeout(function(){
             component.js(); //Js Code der Komponente
-        },100);  //timeout notwendig sonst geladen bevor html content geladen wurde
+        },200);  //timeout notwendig sonst geladen bevor html content geladen wurde
 
         console.log("included Template: " + component.name);  //in Konsole loggen
     });
