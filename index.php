@@ -2,8 +2,8 @@
 <html>
     <head>
         <meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
         <div class="title-wrapper">
@@ -12,12 +12,12 @@
             </div>
         </div>
         <div class="panel-wrapper">
-            <div class="panel" id="panel" style="top: -8px">
+            <div class="panel" id="panel3" style="top: -16px; left: -18px">
             </div>
-			<div class="panel" style="top: -4px">
+            <div class="panel" id="panel2" style="top: -8px; left: -9px">
             </div>
-            <div class="panel">
-			</div>
+            <div class="panel" id="panel1">
+            </div>
 		</div>
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg"><path id="wave" d=""/></svg>
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg"><path id="wave2" d=""/></svg>
