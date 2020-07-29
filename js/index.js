@@ -1,3 +1,4 @@
 $(function(){
-    include([MENU,FOOTER]);
+    MENU.activate();
+    FOOTER.activate();
 });
