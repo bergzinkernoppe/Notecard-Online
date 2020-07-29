@@ -8,6 +8,11 @@
 .title {
     font-size: 80px;
     font-weight: bolder;
+    display: inline-block;
+
+    border-top: #fc9803 solid 10px;
+    border-bottom: #fcdb03 solid 10px;
+    border-radius: 4px;
 }
 svg {
     width: 100%;
