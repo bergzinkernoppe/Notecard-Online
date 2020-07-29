@@ -7,7 +7,7 @@
         {
             "name": "Launch Chrome",
             "request": "launch",
-            "type": "chrome",
+            "type": "pwa-chrome",
             "url": "https://notecard-online.ddev.site/",
             "webRoot": "${workspaceFolder}"
         },

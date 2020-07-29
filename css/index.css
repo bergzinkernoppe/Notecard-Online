@@ -23,15 +23,17 @@ svg {
 
 /*------------------------------< Notecard Animation >----------------------*/
 .panel-wrapper {
-    height: 100px;
+    height: 150px;
     width: 100%;
     position: relative;
+    background-color: blue;
 }
 .panel {
     position: absolute;
+    transition: 0.1s;
 
     height: 100%;
-    width: 200px;
+    width: 300px;
 
     z-index: 0;
 

@@ -13,15 +13,16 @@
             </div>
         </div>
         <div class="panel-wrapper">
-            <div class="panel" id="panel3" style="top: -8px">
+            <div class="panel" id="panel3" style="top: -16px">
             </div>
-			<div class="panel" id="panel2" style="top: -4px">
+			<div class="panel" id="panel2" style="top: -8px">
             </div>
             <div class="panel" id="panel1">
-			</div>
+            </div>
 		</div>
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg"><path id="wave" d=""/></svg>
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg"><path id="wave2" d=""/></svg>
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg"><path id="wave3" d=""/></svg>
         
 		<script src="node_modules/jquery/dist/jquery.min.js"></script>
 		<script src="node_modules/gsap/dist/gsap.min.js"></script>
