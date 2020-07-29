@@ -5,7 +5,22 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "pwa-chrome",
+            "url": "https://notecard-online.ddev.site/",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
             "name": "Launch Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "url": "https://notecard-online.ddev.site/",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Preview-Chrome",
             "request": "launch",
             "type": "pwa-chrome",
             "url": "https://notecard-online.ddev.site/",

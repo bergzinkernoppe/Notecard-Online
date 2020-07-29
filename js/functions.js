@@ -16,20 +16,22 @@ var Component = class{
         else
             this.js = js;
     }
+    // bei activate optionale callback funktion implementieren, in der custom code ausgeführt werden kann
     activate(){
-        $.get(this.htmlPath,function(data){      //load html content
-            $("body").append(data);
+        var js = this.js; //muss als variable, weil in setTimeout() "this" anders
+        $.ajax({                                //load html content
+            dataType: "html",
+            url: this.htmlPath,
+            success: function(data){
+                $("body").append(data);
+                js();                               //js content laden
+            }
         });
         $("<link>").appendTo("head").attr({     //include css
             type: 'text/css',
             rel: 'stylesheet',
             href: this.cssPath
         });
-        var js = this.js; //muss als variable, weil in setTimeout() "this" anders
-        setTimeout(function(){
-            js(); //Js Code der Komponente
-        },200);  //timeout notwendig sonst geladen bevor html content geladen wurde
-
         console.log("included Template: " + this.name);  //in Konsole ausgeben
     }
 }
