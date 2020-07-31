@@ -1,7 +1,7 @@
 /* ------------------------ Menu-Button --------------------------------- */
 #menu-button{
     position: fixed;
-    z-index: 30;
+    z-index: 11;
     top: 10px;
     left: 10px;
     height: 35px;
@@ -42,7 +42,7 @@
 /* ------------------------ Menu --------------------------------- */
 #menu{
     position: fixed;
-    z-index: 20;
+    z-index: 10;
     top: 0;
     
     height: 100vh;
@@ -119,20 +119,20 @@
 /* ------------------------ screen-shader --------------------------------- */
 .screen-shader{
     position: fixed;
-    z-index: 10;
+    z-index: -2;
   
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
   
-    transition-duration: 2s;
+    transition: 0.2s;
     
     background-color: var(--white);
     opacity: 0;
-    display: none;
 }
 .screen-shader-extender{
     opacity: 0.5 !important;
     display: block !important;
+    z-index: 9;
 }

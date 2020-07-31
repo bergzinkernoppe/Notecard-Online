@@ -15,12 +15,12 @@
 }
     /* ------------------------ General --------------------------------- */
 *{
-    font-family: Segoe UI Light;
+    font-family: var(--captionFont);
     color: var(--mainDark);
 
     box-sizing: border-box;
-
     flex-wrap: wrap;
+
     margin: 0;
     padding: 0;
 }

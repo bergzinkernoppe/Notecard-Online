@@ -1,14 +1,17 @@
 /*----------------------------< Title >----------------------------*/
 .title-wrapper {
+    z-index: 8;
     width: 100%;
     padding: 20px;
     text-align: center;
-    position: relative;
 }
 .title {
     font-size: 80px;
     font-weight: bolder;
 }
+
+/*------------------------------< Wellen >--------------------------------*/
+
 svg {
     width: 100%;
     position: absolute;
@@ -25,7 +28,7 @@ svg {
 .panel-wrapper {
     height: 200px;
     width: 100%;
-    margin-top: 200px;
+    margin-top: 100px;
     position: relative;
 }
 .panel {
@@ -40,7 +43,7 @@ svg {
     width: 350px;
 
     font-weight: bold;
-    font-size: 18px;
+    font-size: 28px;
 
     left: 0; 
     right: 0; 
@@ -58,3 +61,164 @@ svg {
 #panel3 {background-color: #e303fc;}
 #panel2 {background-color: #fc9803;}
 #panel1 {background-color: #fcdb03;}
+
+/*---------------------------------------< Register / Login >------------------------*/
+
+.button-wrapper {
+    width: 100%;
+
+    margin-top: 120px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    z-index: 9;
+
+    height: 80px;
+    width: 240px;
+    background-color: #f5a442;
+
+    border-radius: 2px;
+
+    float: right;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.button:first-of-type {
+    margin-right: 50px;
+}
+
+.button:hover {
+    background-color:#ffc175;
+    cursor: pointer;
+}
+
+.center-layer {
+    display: none !important;
+
+    width: 100%;
+    height: 100%;
+
+    position: fixed;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.register-login-wrapper {
+    position: relative;
+
+    height: 400px;
+    width: 700px;
+    background-color: white;
+
+    box-shadow: 0px 0px 5px 0px black;
+    border-radius: 3px;
+}
+
+.login-wrapper {
+    z-index: 1;
+
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+}
+
+.login-icon {
+    width: 50%;
+    height: 100%;
+
+    background-image: url("../img/Login-Icon.png");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+}
+
+.login-half {
+    width: 50%;
+    height: 100%;
+
+    padding: 50px 0px;
+}
+
+.login-half-input-title {
+    width: 100%;
+
+    font-size: 18px;
+    text-align: center;
+
+    margin: 20px 0 10px 0;
+}
+
+.login-half-input {
+    width: 100%;
+
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=text] {
+    width: 80%;
+    margin-bottom: 30px;
+
+    border-radius: 2px;
+    background-color: white;
+    border: 1px solid gray;
+    box-shadow: 0 0 1px 0;
+    text-align: center;
+    height: 25px;
+}
+
+.register-login-shader {
+    position: fixed;
+    z-index: -2;
+  
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+    background-color: var(--white);
+    opacity: 0;
+}
+.register-login-shader-visible{
+    opacity: 0.5 !important;
+    display: block !important;
+    z-index: 12;
+}
+
+.display-visible {
+    z-index: 13;
+    display: flex !important;
+}
+
+.x {
+    z-index: 2;
+    position: absolute;
+    cursor: pointer;
+
+    margin: 5px;
+
+    height: 30px;
+    width: 30px;
+
+    right: 0;
+    top: 0;
+    background-color: blue;
+
+    background-image: url("../img/x.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

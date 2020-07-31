@@ -19,7 +19,8 @@ $('#wave2').wavify({
 var panels = [];
 var texts = ["Innovative","PK Fire","Snake? Snaaaaakeee!","Oxygen","Guillotine","Pet your Dog","Meatball","Don ma glas","Einhebelspültischmischer","Haus","MixMax",
 "Hirtenkäse","Milchbrei","Müllermilch","Dünger","Melone","Seidenbaum","Spülmittel","Gabel","Löffel","Göffel","Guess whos Back","Always learn","Hüpfburg","Cola","Bepis",
-"Topfschlagen","Ofen","stick stick wood = shovel","Back to the Sender"];
+"Topfschlagen","Ofen","stick stick wood = shovel","Back to the Sender","Always has been","Pizza Time","Brominator","Brochete","Who´s Real nice?",
+"Mr Anderbro","Rambro","Bro in Black","Brobocop","Indiana Brones","The Brodator","Bro Lee"];
 
 var i = 0;
 var zahl = 500;
