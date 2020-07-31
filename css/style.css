@@ -2,8 +2,7 @@
     --mainDark: #3C4043;
     --white: white;
     --baseGradient: linear-gradient(140deg, rgba(180,58,165,1) 14%, rgba(246,190,0,1) 79%);
-    --textFont: Work Sans;
-    --captionFont: Nunito;
+    --baseFont: Nunito;
 }
 @font-face{
     font-family: Nunito;
@@ -15,7 +14,7 @@
 }
     /* ------------------------ General --------------------------------- */
 *{
-    font-family: var(--captionFont);
+    font-family: var(--baseFont);
     color: var(--mainDark);
 
     box-sizing: border-box;

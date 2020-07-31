@@ -16,6 +16,7 @@
         "includes" : "writable",
         "include" : "writable",
         "MENU" : "writable",
-        "FOOTER" : "writable"
+        "FOOTER" : "writable",
+        "Component" : "writable"
     }
 }

@@ -11,3 +11,11 @@ $("#x").click(function(){
     $("#center-layer").removeClass("display-visible");
     $("#register-login-shader").removeClass("register-login-shader-visible");
 });
+
+MENU.activate(function(){
+    // in Menü links einfügen
+    $("<div>").appendTo("#menu").attr({class: "menu-element"});
+    $(".menu-element").text("Abfragen");
+});
+
+FOOTER.activate();
